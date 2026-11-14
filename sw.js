@@ -2,7 +2,7 @@
 // Pages always load fresh from the network when online; a saved copy is
 // used only when there's no connection. Live video, chat and logins are
 // never cached.
-const CACHE = "trick-talk-v1";
+const CACHE = "trick-talk-v2";
 const SHELL = ["/", "/index.html", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png"];
 
 self.addEventListener("install", (e) => {
